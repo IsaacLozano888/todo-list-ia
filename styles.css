@@ -1,0 +1,67 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #0f172a;
+  color: #e2e8f0;
+  margin: 0;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background: #020617;
+}
+
+section {
+  background: #020617;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+}
+
+input, select, button {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 8px;
+  border: none;
+}
+
+input, select {
+  background: #1e293b;
+  color: white;
+}
+
+button {
+  background: #3b82f6;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #2563eb;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #1e293b;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Prioridades */
+.alta { border-left: 5px solid red; }
+.media { border-left: 5px solid orange; }
+.baixa { border-left: 5px solid green; }
+
+/* Concluída */
+.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}

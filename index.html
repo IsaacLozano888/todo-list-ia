@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de Tarefas</title>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+  <h1>📝 Lista de Tarefas</h1>
+</header>
+
+<main>
+
+  <!-- Entrada -->
+  <section>
+    <input type="text" id="task-input" placeholder="Digite sua tarefa...">
+    
+    <select id="task-priority">
+      <option value="alta">Alta</option>
+      <option value="media">Média</option>
+      <option value="baixa">Baixa</option>
+    </select>
+
+    <button id="add-task-button">Adicionar</button>
+  </section>
+
+  <!-- Lista -->
+  <section>
+    <ul id="task-list"></ul>
+  </section>
+
+  <!-- Concluídas -->
+  <section>
+    <h2>✔ Concluídas</h2>
+    <ul id="completed-tasks-list"></ul>
+  </section>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
